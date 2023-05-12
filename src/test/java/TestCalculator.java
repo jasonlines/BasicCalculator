@@ -18,4 +18,12 @@ public class TestCalculator {
         int result = Calculator.subtraction(5,4);
         Assertions.assertEquals(1, result);
     }
+    
+    @Test
+    @DisplayName("Testing the multiplicatoin method")
+    public void testMultiplication(){
+        int result = Calculator.multiplication(5,4);
+        Assertions.assertEquals(20, result);
+    }
+    
 }
